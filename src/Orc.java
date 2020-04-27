@@ -1,7 +1,7 @@
 
 public class Orc extends Combatente {
 
-	public Orc(int vida, String nome) {
-		super(vida, nome);
+	public Orc() {
+		super(130, 10, 50, "Orc");
 	}
 }

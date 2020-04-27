@@ -1,8 +1,8 @@
 
 public class Humano extends Combatente {
 
-	public Humano(int vida, String nome) {
-		super(vida, nome);
-		
+	public Humano() {
+		super(100, 30, 70, "Humano");
+
 	}
 }
